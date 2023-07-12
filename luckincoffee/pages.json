@@ -1,0 +1,122 @@
+{
+	"pages": [{
+			"path": "pages/transition/transition",
+			"style": {
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/detail/detail",
+			"style": {
+				"navigationBarTitleText": "Luckin Coffee",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/my/my",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/shopcar/shopcar",
+			"style": {
+				"navigationBarTitleText": "购物车",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+				// "navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "选择咖啡和小食",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/clause/clause",
+			"style": {
+				"navigationBarTitleText": "用户协议"
+			}
+		}
+
+	],
+	// "autoscan": true,
+	// "custom": {
+	// 	"^van-(.*)": "@/wxcomponents/vant/$1/index.vue" // 匹配wxcomponents目录内的vue文件
+
+	// },
+	"globalStyle": {
+		"navigationStyle": "default", //设置custom即取消默认的原生导航栏
+		"navigationBarBackgroundColor": "#2979ff",
+		"navigationBarTextStyle": "white",
+		"backgroundColor": "#F8F8F8"
+
+
+	},
+	"tabBar": {
+		"color": "#13227a",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tabbar/11.png",
+				"selectedIconPath": "static/tabbar/1.png"
+			},
+			{
+				"pagePath": "pages/menu/menu",
+				"text": "菜单",
+				"iconPath": "static/tabbar/aofx9-diblh.jpg",
+				"selectedIconPath": "static/tabbar/anp7w-yyffk.jpg"
+			},
+			{
+				"pagePath": "pages/order/order",
+				"text": "订单",
+				"iconPath": "static/tabbar/aoje9-tl1sd.jpg",
+				"selectedIconPath": "static/tabbar/aq0h9-hpfc3.jpg"
+			},
+			{
+				"pagePath": "pages/shopcar/shopcar",
+				"text": "购物车",
+				"iconPath": "static/tabbar/ak29t-8y3ek.jpg",
+				"selectedIconPath": "static/tabbar/avnsz-3utpb.jpg"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "我的",
+				"iconPath": "static/tabbar/abqzz-eck8r.jpg",
+				"selectedIconPath": "static/tabbar/akgsp-29mib.jpg"
+			}
+
+		]
+	}
+}
