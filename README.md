@@ -1,6 +1,6 @@
 # 运行该程序
 
-在 HBuilder X 中打开 luckin-coffee 文件夹，使用工具 Navicat for MySQL 导入 luckin.sql,在 sever 文件夹下的 dome 选择打开终端，输入 npm start 运行后台数据库，该项目不需要下载所需依赖，均已打包上传。
+在 HBuilder X 中打开 luckin-coffee 文件夹，使用工具 Navicat for MySQL 导入 luckin.sql,在 sever 文件夹下的 dome 选择打开终端，输入 npm start 运行后台数据库。
 
 # luckin-coffee
 
